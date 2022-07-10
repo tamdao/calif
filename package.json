@@ -2,7 +2,7 @@
   "name": "calif",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://calif.onrender.com",
   "dependencies": {
     "@mantine/core": "^4.2.12",
     "@mantine/hooks": "^4.2.12",
