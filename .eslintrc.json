@@ -1,0 +1,51 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "standard"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "unused-imports", "simple-import-sort"],
+  "rules": {
+    "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/member-delimiter-style": 0,
+    "@typescript-eslint/no-empty-interface": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-object-literal-type-assertion": 0,
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "comma-dangle": 0,
+    "generator-star-spacing": 0,
+    "no-undef": 0,
+    "no-use-before-define": "off",
+    "quotes": 0,
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/display-name": 0,
+    "react/no-unescaped-entities": 0,
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "space-before-function-paren": 0,
+    "unused-imports/no-unused-imports-ts": "error",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  }
+}
