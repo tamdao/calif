@@ -2,9 +2,7 @@ import { Box, createStyles, Group, Text, ThemeIcon } from '@mantine/core'
 import React from 'react'
 import { At, MapPin, Phone, Sun } from 'tabler-icons-react'
 
-import { PageSection } from './page-section'
-import { Section } from './section'
-import { SectionTitle } from './section-title'
+import { PageSection, Section, SectionTitle } from '../components'
 
 const useStyles = createStyles((theme) => ({
   wrapper: {

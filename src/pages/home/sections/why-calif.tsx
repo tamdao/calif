@@ -2,9 +2,7 @@ import { List, ThemeIcon } from '@mantine/core'
 import React from 'react'
 import { Check } from 'tabler-icons-react'
 
-import { PageSection } from './page-section'
-import { Section } from './section'
-import { SectionTitle } from './section-title'
+import { PageSection, Section, SectionTitle } from '../components'
 
 export function WhyCalif() {
   return (

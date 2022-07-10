@@ -1,10 +1,8 @@
 import { Image } from '@mantine/core'
 import React from 'react'
 
+import { PageSection, Section, SectionTitle } from '../components'
 import laptopImage from '../images/laptop.svg'
-import { PageSection } from './page-section'
-import { Section } from './section'
-import { SectionTitle } from './section-title'
 
 export function OurServices() {
   return (
