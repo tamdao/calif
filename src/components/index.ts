@@ -1,4 +1,6 @@
+export * from './article-card/article-card'
 export * from './button/button'
+export * from './dots/dots'
 export * from './footer-social/footer-social'
 export * from './header-simple/header-simple'
 export * from './layout/layout'

@@ -104,7 +104,7 @@ export function HeaderSimple({ links }: HeaderSimpleProps) {
             setTimeout(() => {
               const element = document.querySelector(window.location.hash)
               element?.scrollIntoView({ behavior: 'smooth' })
-            })
+            }, 50)
           }}
         >
           {link.label}
