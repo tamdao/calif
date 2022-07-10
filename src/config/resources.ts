@@ -2,22 +2,6 @@ import contextWrapper from 'articles/context-wrapper.md'
 import propsInitialState from 'articles/props-in-initial-state.md'
 import thirdPartyIntegration from 'articles/third-party-integration.md'
 
-export const RESOURCE_TYPE = [
-  { id: '', label: 'All' },
-  {
-    id: 'blog',
-    label: 'Blog',
-  },
-  {
-    id: 'case-studies',
-    label: 'Case Studies',
-  },
-  {
-    id: 'press',
-    label: 'Press',
-  },
-]
-
 export const RESOURCE_LIST = [
   {
     id: 'third-party-integration',
@@ -47,5 +31,21 @@ export const RESOURCE_LIST = [
       'Duis aliqua excepteur esse Lorem excepteur esse quis dolore sint nisi id est esse proident. Irure sunt ipsum ad cupidatat magna incididunt. Nostrud nisi consequat eu ipsum tempor anim ex id consectetur irure occaecat.',
     type: 'case-studies',
     source: propsInitialState,
+  },
+]
+
+export const RESOURCE_TYPE = [
+  { id: '', label: 'All' },
+  {
+    id: 'blog',
+    label: 'Blog',
+  },
+  {
+    id: 'case-studies',
+    label: 'Case Studies',
+  },
+  {
+    id: 'press',
+    label: 'Press',
   },
 ]
