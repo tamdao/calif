@@ -13,7 +13,6 @@ export function WhyCalif() {
         description="Incididunt qui minim ut ipsum cupidatat sit et ea mollit occaecat labore do commodo nisi."
       >
         <List
-          mt={30}
           spacing="sm"
           size="sm"
           icon={
