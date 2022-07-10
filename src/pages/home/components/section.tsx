@@ -41,7 +41,7 @@ const useStyles = createStyles((theme) => ({
 
   title: {
     marginBottom: theme.spacing.xs,
-    color: theme.colors[theme.primaryColor][4],
+    color: theme.colors[theme.primaryColor][6],
     fontWeight: 'normal',
   },
 

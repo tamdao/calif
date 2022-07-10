@@ -80,7 +80,7 @@ export function AboutUs() {
             padding: theme.spacing.xl,
             borderRadius: theme.radius.md,
             backgroundImage: `linear-gradient(135deg, ${theme.colors[theme.primaryColor][6]} 0%, ${
-              theme.colors[theme.primaryColor][4]
+              theme.colors[theme.primaryColor][6]
             } 100%)`,
           })}
         >

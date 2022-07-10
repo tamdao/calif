@@ -12,7 +12,7 @@ export function OurServices() {
         title="Lorem sunt esse exercitation"
         description="Incididunt qui minim ut ipsum cupidatat sit et ea mollit occaecat labore do commodo nisi. Velit esse laborum exercitation labore magna Lorem minim incididunt dolor cupidatat occaecat."
       >
-        <Image src={laptopImage} />
+        <Image src={laptopImage} alt="Our services" />
       </Section>
     </PageSection>
   )

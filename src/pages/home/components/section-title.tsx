@@ -14,7 +14,7 @@ const useStyles = createStyles((theme) => ({
     textAlign: 'center',
     marginBottom: theme.spacing.xl * 2,
     letterSpacing: 1,
-    color: theme.colors[theme.primaryColor][4],
+    color: theme.colors[theme.primaryColor][6],
 
     [BREAKPOINT]: {
       fontSize: 28,

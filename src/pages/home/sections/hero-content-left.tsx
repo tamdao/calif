@@ -53,7 +53,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   highlight: {
-    color: theme.colors[theme.primaryColor][4],
+    color: theme.colors[theme.primaryColor][6],
   },
 
   control: {
