@@ -1,6 +1,6 @@
 import { Container, createStyles, SimpleGrid, Text, Title } from '@mantine/core'
 import { ArticleCard, Dots } from 'components'
-import { RESOURCE_LIST } from 'data'
+import { RESOURCE_LIST } from 'config'
 import React, { useCallback, useState } from 'react'
 
 import { Filter } from './components/filter'

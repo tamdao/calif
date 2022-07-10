@@ -1,6 +1,6 @@
 import { Box, createStyles, Group, Text, ThemeIcon } from '@mantine/core'
+import { CONTACT } from 'config'
 import React from 'react'
-import { At, MapPin, Phone, Sun } from 'tabler-icons-react'
 
 import { PageSection, Section, SectionTitle } from '../components'
 
@@ -57,13 +57,6 @@ function ContactIconsList({ data = [] }: ContactIconsListProps) {
   return <Group direction="column">{items}</Group>
 }
 
-const MOCKDATA = [
-  { title: 'Email', description: 'hello@calif.io', icon: At },
-  { title: 'Phone', description: '+01 (800) 000 00 00', icon: Phone },
-  { title: 'Address', description: '36 Maris Park avenue', icon: MapPin },
-  { title: 'Working hours', description: '8 a.m. – 11 p.m.', icon: Sun },
-]
-
 export function AboutUs() {
   return (
     <PageSection secondary id="about-us">
@@ -84,7 +77,7 @@ export function AboutUs() {
             } 100%)`,
           })}
         >
-          <ContactIconsList data={MOCKDATA} />
+          <ContactIconsList data={CONTACT} />
         </Box>
       </Section>
     </PageSection>

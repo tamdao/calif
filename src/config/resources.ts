@@ -1,25 +1,6 @@
-import contextWrapper from './articles/context-wrapper.md'
-import propsInitialState from './articles/props-in-initial-state.md'
-import thirdPartyIntegration from './articles/third-party-integration.md'
-
-export const HEADER_LINKS = [
-  {
-    link: '/#our-services',
-    label: 'Our Services',
-  },
-  {
-    link: '/#why-calif',
-    label: 'Why Calif',
-  },
-  {
-    link: '/resources',
-    label: 'Resources',
-  },
-  {
-    link: '/#about-us',
-    label: 'About us',
-  },
-]
+import contextWrapper from 'articles/context-wrapper.md'
+import propsInitialState from 'articles/props-in-initial-state.md'
+import thirdPartyIntegration from 'articles/third-party-integration.md'
 
 export const RESOURCE_TYPE = [
   { id: '', label: 'All' },

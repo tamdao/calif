@@ -1,5 +1,5 @@
 import { Chip, Chips, createStyles } from '@mantine/core'
-import { RESOURCE_TYPE } from 'data'
+import { RESOURCE_TYPE } from 'config'
 import React from 'react'
 
 const useStyles = createStyles((theme, _params, getRef) => ({

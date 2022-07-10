@@ -1,5 +1,5 @@
 import { Code, Container, createStyles, Text, Title } from '@mantine/core'
-import { RESOURCE_LIST } from 'data'
+import { RESOURCE_LIST } from 'config'
 import React, { useEffect, useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { useNavigate, useParams } from 'react-router-dom'
